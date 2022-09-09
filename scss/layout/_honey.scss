@@ -1,0 +1,84 @@
+.honey__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 28px;
+
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 480px) {
+    margin: -5px;
+  }
+}
+
+.honey__item {
+  @media screen and (min-width: 480px) {
+    width: calc(100% - 4 * 10px) / 2;
+    margin: 15px;
+  }
+
+  //   @media screen and (min-width: 768px) {
+  //     width: calc((100% - 3 * 10px) / 3);
+  //   }
+
+  //   @media screen and (min-width: 1200px) {
+  //     width: calc((100% - 6 * 10px) / 4);
+  //   }
+}
+
+.honey__img {
+  width: 100%;
+
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 480px) {
+    width: 205px;
+    height: 205px;
+  }
+}
+
+/////////////////////// honey__title /////////////////////
+.honey__title {
+  margin-bottom: 8px;
+
+  //   font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.66;
+}
+
+/////////////////////// honey__text /////////////////////
+.honey__text {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 16px;
+
+  color: $green-font-color;
+
+  //   font-family: 'Helvetica';
+  font-weight: 400;
+  // font-size: 14px;
+  // line-height: 0.58;
+
+  font-size: 8px;
+  line-height: 0.33;
+}
+
+.honey__text-svg {
+  width: 6px;
+  height: 4px;
+
+  margin-right: 5px;
+}
+
+///////////////////// honey__text-sum ///////////////////
+.honey__text-sum {
+  margin-bottom: 16px;
+
+  font-size: 24px;
+  line-height: 1;
+
+  text-transform: uppercase;
+}
