@@ -1,0 +1,40 @@
+.footer__second {
+  margin-bottom: 30px;
+}
+
+.second__list {
+  @media screen and (min-width: 768px) {
+    margin-right: 43px;
+  }
+}
+
+.second__item {
+  @media screen and (max-width: 768px) {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.second__link {
+  color: $gray-font-color;
+  font-size: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+////////////////////////////////////// third__list ////////////////////////////////////
+// .third__list {
+//   @media screen and (max-width: 768px) {
+//     margin-bottom: 30px;
+//     &:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+// }

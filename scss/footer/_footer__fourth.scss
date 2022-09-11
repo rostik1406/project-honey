@@ -1,0 +1,12 @@
+//
+.fourth__item {
+  margin-bottom: 16px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.fourth__social-icon {
+  width: 41px;
+  height: 39px;
+}

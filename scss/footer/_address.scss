@@ -1,0 +1,47 @@
+.footer {
+  background-color: $premari-font-color;
+
+  padding-top: 24px;
+}
+
+.footer__container {
+  display: block;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.address {
+  font-style: normal;
+
+  margin-bottom: 45px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 83px;
+  }
+}
+
+.address__link {
+  color: $white-font-color;
+  font-size: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+.address__map-icon,
+.address__phone-icon {
+  width: 23px;
+  height: 23px;
+
+  margin-right: 14px;
+
+  fill: $white-font-color;
+}
