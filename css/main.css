@@ -62,12 +62,7 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
+    width: 1140px;
   }
 }
 
@@ -105,7 +100,7 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .button {
-    width: 200px;
+    width: 153px;
     height: 50px;
     border-radius: 25px;
   }
@@ -121,7 +116,7 @@ p {
     font-size: 34px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .section__title {
     font-size: 48px;
   }
@@ -131,8 +126,9 @@ p {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .ct-linc__adn {
     margin-top: 57px;
   }
@@ -144,7 +140,7 @@ p {
   font-size: 16px;
   line-height: 1;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .container__link {
     margin: 0;
     margin-left: auto;
@@ -174,7 +170,7 @@ p {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .section__title-h3 {
     font-size: 20px;
     line-height: 0.83;
@@ -197,6 +193,14 @@ p {
   fill: red;
   outline: 1px solid red;
   background-size: contain;
+}
+
+.hero__bg {
+  width: 1140px;
+  height: 440px;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .honey__list {
@@ -232,7 +236,7 @@ p {
     width: calc((100% - 90px) / 3);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .honey__item {
     width: calc((100% - 120px) / 4);
   }
@@ -264,7 +268,7 @@ p {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .honey__title {
     font-size: 24px;
   }
@@ -282,7 +286,7 @@ p {
     font-size: 10px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .honey__text {
     font-size: 14px;
   }
@@ -302,7 +306,7 @@ p {
     height: 8px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .honey__text::before {
     width: 14px;
     height: 10px;
@@ -331,7 +335,7 @@ p {
     font-size: 28px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .honey__text-sum {
     font-size: 30px;
   }
@@ -370,7 +374,7 @@ p {
     width: calc((100% - 90px) / 3);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .tea__item {
     width: calc((100% - 120px) / 4);
   }
@@ -402,7 +406,7 @@ p {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .tea__title {
     font-size: 24px;
   }
@@ -420,7 +424,7 @@ p {
     font-size: 10px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .tea__text {
     font-size: 14px;
   }
@@ -440,7 +444,7 @@ p {
     height: 8px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .tea__text::before {
     width: 14px;
     height: 10px;
@@ -469,7 +473,7 @@ p {
     font-size: 28px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .tea__text-sum {
     font-size: 30px;
   }
@@ -512,7 +516,7 @@ p {
     width: calc((100% - 90px) / 3);
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .bilberry__item {
     width: calc((100% - 120px) / 4);
   }
@@ -544,7 +548,7 @@ p {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .bilberry__title {
     font-size: 24px;
   }
@@ -562,7 +566,7 @@ p {
     font-size: 10px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .bilberry__text {
     font-size: 14px;
   }
@@ -582,7 +586,7 @@ p {
     height: 8px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .bilberry__text::before {
     width: 14px;
     height: 10px;
@@ -611,7 +615,7 @@ p {
     font-size: 28px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .bilberry__text-sum {
     font-size: 30px;
   }
@@ -625,6 +629,7 @@ p {
 .footer__container {
   display: block;
   text-align: center;
+  padding-bottom: 23px;
 }
 @media screen and (min-width: 768px) {
   .footer__container {
@@ -639,7 +644,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .address {
-    margin-right: 83px;
+    margin: 0;
   }
 }
 
@@ -669,10 +674,9 @@ p {
 .footer__second {
   margin-bottom: 30px;
 }
-
 @media screen and (min-width: 768px) {
-  .second__list {
-    margin-right: 43px;
+  .footer__second {
+    margin: 0;
   }
 }
 
@@ -681,7 +685,7 @@ p {
     margin-bottom: 30px;
   }
   .second__item:last-child {
-    margin-bottom: 0;
+    margin: 0;
   }
 }
 
@@ -697,6 +701,15 @@ p {
 @media screen and (min-width: 1200px) {
   .second__link {
     font-size: 20px;
+  }
+}
+
+.footer__third {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .footer__third {
+    margin: 0;
   }
 }
 
@@ -729,14 +742,44 @@ p {
   }
 }
 
+.fourth__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .fourth__list {
+    display: block;
+  }
+}
+
 .fourth__item {
-  margin-bottom: 16px;
+  margin-right: 40px;
 }
 .fourth__item:last-child {
-  margin-bottom: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .fourth__item {
+    margin: 0;
+  }
 }
 
 .fourth__social-icon {
   width: 41px;
   height: 39px;
+}
+
+.footer__and {
+  background-color: #ff7a00;
+  color: #ffffff;
+}
+
+.and__text {
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .and__text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
