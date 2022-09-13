@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>thank-you-page</title>
 
     <link
       rel="stylesheet"
@@ -12,30 +12,84 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <main>
-      <section>
+      <section class="section thanks__hero-fon">
         <div class="thanks__hero container">
-          <h1>Тарас, спасибі вам за замовлення!</h1>
-          <p>
+          <div class="thanks-cnt__img">
+            <img
+              class="thanks__icon-img"
+              src="./img/kruh-halochka.png"
+              alt="Галочка"
+            />
+          </div>
+
+          <h1 class="thanks__hero__h1">Тарас, спасибі вам за замовлення!</h1>
+          <p class="thanks__hero__text">
             Найближчим часом з Вами зв’яжиться менеджер за номером 0953423123
           </p>
-          <a href="">Назад на головну</a>
+          <a class="thanks__hero__link" href="">
+            <svg class="thanks__hero__icon-svg">
+              <use href="./img/icons.svg#icon-strilka-left"></use>
+            </svg>
+            Назад на головну</a
+          >
+        </div>
+      </section>
 
-          <h2>Замовлені товари</h2>
+      <section class="section selected__section">
+        <div class="container">
+          <h2 class="selected__title-h2">Замовлені товари</h2>
 
-          <ul>
-            <li>
-              <a href=""><img src="" alt="" /></a>
-              <h3>Мед 0.5 літрів</h3>
-              <p>Мед 0.5 літрів</p>
-              <p>1000 ₴<span>2 x 500₴</span></p>
+          <ul class="selected__list list">
+            <li class="selected__item">
+              <a class="selected__link" href="">
+                <img class="selected__img" src="./img/honey-min.jpg" alt="Фото"
+              /></a>
+              <div class="selected__container">
+                <h3 class="selected__title">Мед 0.5 літрів</h3>
+                <p class="selected__text">Артикул: 8</p>
+                <p class="selected__text-sum">
+                  1000 ₴<span class="selected__span">2 x 500₴</span>
+                </p>
+              </div>
+            </li>
+
+            <li class="selected__border-li"></li>
+
+            <li class="selected__item">
+              <a class="selected__link" href="">
+                <img class="selected__img" src="./img/honey-min.jpg" alt="Фото"
+              /></a>
+              <div class="selected__container">
+                <h3 class="selected__title">Мед 0.5 літрів</h3>
+                <p class="selected__text">Артикул: 8</p>
+                <p class="selected__text-sum">
+                  1000 ₴<span class="selected__span">2 x 500₴</span>
+                </p>
+              </div>
+            </li>
+
+            <li class="selected__border-li"></li>
+
+            <li class="selected__item">
+              <a class="selected__link" href="">
+                <img class="selected__img" src="./img/honey-min.jpg" alt="Фото"
+              /></a>
+              <div class="selected__container">
+                <h3 class="selected__title">Мед 0.5 літрів</h3>
+                <p class="selected__text">Артикул: 8</p>
+                <p class="selected__text-sum">
+                  1000 ₴<span class="selected__span">2 x 500₴</span>
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section thank-you__section">
         <div class="container">
           <h2 class="section__title">Ці товари можуть вас зацікавити</h2>
 
@@ -100,6 +154,48 @@
               <h4 class="honey__title">Мед 0.5 літрів</h4>
               <p class="honey__text">Є в наявності</p>
 
+              <div class="honey__tablet-ct">
+                <p class="honey__text-sum">500 ₴</p>
+                <button class="button" type="button">Придбати</button>
+              </div>
+            </li>
+            <li class="honey__item">
+              <a class="honey__link" href=""
+                ><img
+                  class="honey__img img"
+                  src="./img/honey-min.jpg"
+                  alt="Мед"
+              /></a>
+              <h4 class="honey__title">Мед 0.5 літрів</h4>
+              <p class="honey__text">Є в наявності</p>
+              <div class="honey__tablet-ct">
+                <p class="honey__text-sum">500 ₴</p>
+                <button class="button" type="button">Придбати</button>
+              </div>
+            </li>
+            <li class="honey__item">
+              <a class="honey__link" href=""
+                ><img
+                  class="honey__img img"
+                  src="./img/honey-min.jpg"
+                  alt="Мед"
+              /></a>
+              <h4 class="honey__title">Мед 0.5 літрів</h4>
+              <p class="honey__text">Є в наявності</p>
+              <div class="honey__tablet-ct">
+                <p class="honey__text-sum">500 ₴</p>
+                <button class="button" type="button">Придбати</button>
+              </div>
+            </li>
+            <li class="honey__item">
+              <a class="honey__link" href=""
+                ><img
+                  class="honey__img img"
+                  src="./img/honey-min.jpg"
+                  alt="Мед"
+              /></a>
+              <h4 class="honey__title">Мед 0.5 літрів</h4>
+              <p class="honey__text">Є в наявності</p>
               <div class="honey__tablet-ct">
                 <p class="honey__text-sum">500 ₴</p>
                 <button class="button" type="button">Придбати</button>
