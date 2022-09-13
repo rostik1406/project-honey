@@ -24,6 +24,15 @@
   }
 }
 
+.address-item {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 21px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .address__link {
   color: $white-font-color;
   font-size: 20px;

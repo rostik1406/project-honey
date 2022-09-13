@@ -719,6 +719,15 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .address-item {
+    margin-bottom: 21px;
+  }
+  .address-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .address__link {
   color: #ffffff;
   font-size: 20px;
@@ -762,6 +771,14 @@ p {
     margin: 0;
   }
 }
+@media screen and (min-width: 768px) {
+  .second__item {
+    margin-bottom: 12px;
+  }
+  .second__item:last-child {
+    margin-bottom: 0;
+  }
+}
 
 .second__link {
   color: #9b9b9b;
@@ -801,6 +818,10 @@ p {
 @media screen and (min-width: 768px) {
   .third__item {
     text-align: left;
+    margin-bottom: 12px;
+  }
+  .third__item:last-child {
+    margin-bottom: 0;
   }
 }
 
