@@ -5,6 +5,10 @@ $button-hover-color: linear-gradient(
   #c45f02 0%,
   #ff7a00 100%
 ); //колір кнопок ховер - фокус
+$curent-btn: #ff891c;
+
+$cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+
 $secondery-font-color: #666666; // колір другорядного шрифта
 $premari-font-color: #000000; // колір основного шрифта
 $green-font-color: #2eb84c; // зелений

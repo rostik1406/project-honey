@@ -1,4 +1,4 @@
-.button {
+.curent__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,31 +8,14 @@
   width: 100%;
   height: 33px;
 
-  border: none;
-  background: $button-color;
+  border: 1px solid $curent-btn;
+  background-color: transparent;
   border-radius: 16px;
 
   font-size: 16px;
   line-height: 0.66;
 
-  color: $white-font-color;
-
-  &:hover,
-  &:focus {
-    background: $button-hover-color;
-  }
-
-  &::before {
-    content: '';
-    width: 16px;
-    height: 16px;
-
-    margin-right: 10px;
-
-    background-image: url(../img/akar-icons_plus.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+  color: $curent-btn;
 
   @media screen and (min-width: 768px) {
     width: 125px;
@@ -49,4 +32,10 @@
     border-radius: 25px;
   }
 }
-// ююююю
+
+.curent__icon-svg {
+  width: 18px;
+  height: 18px;
+
+  margin-right: 8px;
+}

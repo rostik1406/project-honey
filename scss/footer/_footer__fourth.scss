@@ -21,6 +21,15 @@
   }
 }
 
+.fourth__link {
+  fill: $secondery-font-color;
+
+  &:hover,
+  &:focus {
+    fill: $white-font-color;
+  }
+}
+
 .fourth__social-icon {
   width: 41px;
   height: 39px;

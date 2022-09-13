@@ -1,11 +1,33 @@
 .hero__bg {
-  width: 1140px;
-  height: 440px;
+  margin-bottom: 18px;
 
-  // padding-left: 20px;
-  // padding-right: 20px;
+  width: 300px;
+  height: 200px;
 
   background-image: url(../img/hero-bg.jpg);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 25px;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 24px;
+
+    width: 440px;
+    height: 250px;
+    padding: 0;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+
+    width: 720px;
+    height: 340px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 67px;
+
+    width: 1140px;
+    height: 440px;
+  }
 }

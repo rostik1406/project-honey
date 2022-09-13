@@ -1,5 +1,5 @@
 .section__title-h3 {
-  margin-left: 10px;
+  // margin-left: 10px;
   margin-bottom: 16px;
 
   font-size: 16px;
@@ -8,10 +8,13 @@
 
   @media screen and (min-width: 768px) {
     font-size: 18px;
+    margin-bottom: 22px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 20px;
     line-height: 0.83;
+
+    margin-bottom: 30px;
   }
 }
