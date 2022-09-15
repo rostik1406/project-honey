@@ -27,18 +27,25 @@
 
 .thanks__hero__h1 {
   margin-bottom: 20px;
+  font-size: 30px;
 
-  font-size: 48px;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
 }
 
 .thanks__hero__text {
   margin-bottom: 40px;
+  font-size: 16px;
 
-  font-size: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .thanks__hero__link {
   color: $accent-color;
+  font-size: 20px;
 }
 
 .thanks__hero__icon-svg {

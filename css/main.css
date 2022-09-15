@@ -921,16 +921,27 @@ p {
 
 .thanks__hero__h1 {
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .thanks__hero__h1 {
+    font-size: 48px;
+  }
 }
 
 .thanks__hero__text {
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .thanks__hero__text {
+    font-size: 20px;
+  }
 }
 
 .thanks__hero__link {
   color: #ff7a00;
+  font-size: 20px;
 }
 
 .thanks__hero__icon-svg {
@@ -950,6 +961,7 @@ p {
 
 .selected__title-h2 {
   margin-bottom: 38px;
+  font-size: 20px;
 }
 
 .selected__item {
