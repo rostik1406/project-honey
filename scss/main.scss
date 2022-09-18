@@ -3,7 +3,6 @@
 @import './base/coment-style';
 @import './base/reset';
 
-@import './components/section';
 @import './components/container';
 @import './components/button';
 @import './components/curent__btn';
@@ -22,11 +21,15 @@
 @import './layout/tea';
 @import './layout/bilberry';
 
+@import './layout/thank-you-page';
+@import './layout/selected';
+
+@import './layout/modal-window';
+@import './layout/modal__section';
+@import './layout/modal__form';
+
 @import './footer/address';
 @import './footer/footer__second';
 @import './footer/footer__third';
 @import './footer/footer__fourth';
 @import './footer/footer__and';
-
-@import './layout/thank-you-page';
-@import './layout/selected';
