@@ -1,21 +1,4 @@
 .header-logo {
-  outline: 1px solid blue;
-}
-
-.container-logo__logo {
-  display: block;
-
-  padding: 21px 17px;
-  background-color: rgb(43, 36, 36);
-  outline: 1px solid red;
-  outline: 1px solid blue;
-}
-
-.header-logo__svg {
-  // width: 151px;
-  // height: 26px;
-  fill: red;
-  // background-color: rgb(126, 138, 137);
-  outline: 1px solid red;
-  background-size: contain;
+  width: 35%;
+  background-color: $accent-color;
 }

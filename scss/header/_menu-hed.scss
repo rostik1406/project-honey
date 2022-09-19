@@ -1,0 +1,17 @@
+.menu-hed {
+  background-color: $background-hed;
+}
+
+.menu-hed__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-hed__link {
+  display: block;
+  padding: 10px 0;
+  color: $premari-font-color;
+
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.container__page-header {
+  display: flex;
+}
+
+.header-logo__link {
+  display: block;
+  height: 87px;
+}
+
+.logo__text {
+  text-align: right;
+  display: block;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+  color: $white-font-color;
+}
+
+.logo__span {
+  text-align: right;
+  display: block;
+
+  font-size: 18px;
+  color: $white-font-color;
+}

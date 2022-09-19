@@ -2,6 +2,7 @@
 body {
   box-sizing: border-box;
   color: #000000;
+  background-color: #f3f3f3;
 }
 
 .list {
@@ -222,22 +223,105 @@ p {
   }
 }
 
-.header-logo {
-  outline: 1px solid blue;
+.container__page-header {
+  display: flex;
 }
 
-.container-logo__logo {
+.header-logo__link {
   display: block;
-  padding: 21px 17px;
-  background-color: rgb(43, 36, 36);
-  outline: 1px solid red;
-  outline: 1px solid blue;
+  height: 87px;
 }
 
-.header-logo__svg {
-  fill: red;
-  outline: 1px solid red;
-  background-size: contain;
+.logo__text {
+  text-align: right;
+  display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.logo__span {
+  text-align: right;
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header-logo {
+  width: 35%;
+  background-color: #ff7a00;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 87px;
+  padding: 15px 26px 10px 26px;
+  background-color: #ffffff;
+}
+
+.nav__item {
+  margin-bottom: 8px;
+}
+.nav__item:last-child {
+  margin-bottom: 0;
+}
+
+.nav__link {
+  color: #000000;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .nav__link {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav__link {
+    font-size: 20px;
+  }
+}
+
+.nav__social-icon {
+  width: 23px;
+  height: 23px;
+  fill: #000000;
+}
+
+.second-nav__list {
+  display: flex;
+  margin-left: 311px;
+}
+
+.second-nav__link {
+  fill: #666666;
+}
+
+.second-nav__social-icon {
+  width: 29px;
+  height: 28px;
+}
+
+.menu-hed {
+  background-color: #e9e9e9;
+}
+
+.menu-hed__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-hed__link {
+  display: block;
+  padding: 10px 0;
+  color: #000000;
+  font-size: 20px;
 }
 
 .hero__bg {
@@ -252,6 +336,7 @@ p {
 }
 @media screen and (min-width: 480px) {
   .hero__bg {
+    margin-top: 24px;
     margin-bottom: 24px;
     width: 440px;
     height: 250px;
@@ -260,6 +345,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .hero__bg {
+    margin-top: 40px;
     margin-bottom: 40px;
     width: 720px;
     height: 340px;
@@ -267,7 +353,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .hero__bg {
-    margin-bottom: 67px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     width: 1140px;
     height: 440px;
   }
@@ -1146,6 +1233,8 @@ p {
 .address__link {
   color: #ffffff;
   font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .address__link {
