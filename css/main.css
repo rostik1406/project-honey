@@ -821,7 +821,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
+  overflow: scroll;
 }
 
 .modal.is-hidden {
@@ -831,11 +832,10 @@ p {
 
 .modal-window {
   position: absolute;
-  top: 50%;
+  top: 5%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  background: #f3f3f3;
+  transform: translate(-50%);
+  background: #ffffff;
   border-radius: 15px;
 }
 @media screen and (min-width: 320px) {
@@ -845,14 +845,33 @@ p {
 }
 @media screen and (min-width: 450px) {
   .modal-window {
-    width: 450px;
-    padding: 20px;
+    width: 440px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal-window {
+    width: 728px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal-window {
     width: 857px;
-    padding: 30px;
+  }
+}
+
+.m-f {
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-radius: 15px 15px 0 0;
+}
+@media screen and (min-width: 450px) {
+  .m-f {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .m-f {
+    padding: 30px 30px 22px 30px;
   }
 }
 
@@ -884,15 +903,7 @@ p {
   fill: #ff7a00;
 }
 
-.button-submit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .modal__item {
     display: flex;
     align-items: center;
@@ -905,21 +916,30 @@ p {
   align-items: center;
   margin-bottom: 17px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .modal__wrap {
     margin: 0;
-    margin-right: 100px;
   }
 }
 
 .modal__img {
   width: 89px;
   height: 89px;
-  margin-right: 17px;
+  margin-right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .modal__img {
+    margin-right: 17px;
+  }
 }
 
 .modal__title {
-  font-size: 24px;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .modal__title {
+    font-size: 24px;
+  }
 }
 
 .modal__container {
@@ -929,8 +949,17 @@ p {
 .modal__span {
   display: flex;
   align-items: center;
-  margin-right: 140px;
   font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .modal__span {
+    margin-right: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal__span {
+    margin-right: 140px;
+  }
 }
 
 .modal__svg {
@@ -947,6 +976,7 @@ p {
 }
 
 .modal__text {
+  margin-left: auto;
   font-size: 30px;
 }
 
@@ -955,7 +985,12 @@ p {
   height: 22px;
   margin-left: 9px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .modal__icon-koshik {
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
   .modal__icon-koshik {
     margin-left: 30px;
   }
@@ -970,7 +1005,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 22px;
   color: #666666;
   font-size: 20px;
 }
@@ -981,8 +1015,96 @@ p {
   font-size: 30px;
 }
 
+.modal-form__title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
 .modal-form {
   background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+}
+@media screen and (min-width: 450px) {
+  .modal-form {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-form {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-containrt__label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+.modal-form__label {
+  margin-bottom: 15px;
+}
+.modal-form__label:last-child {
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .modal-form__label {
+    margin: 0;
+  }
+}
+
+.modai-form__input {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  padding-left: 11px;
+  background-color: #f3f3f3;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .modai-form__input {
+    width: 330px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modai-form__input {
+    width: 390px;
+    margin: 0;
+  }
+}
+
+.modal-form__textarea {
+  resize: none;
+  width: 100%;
+  height: 255px;
+  padding: 11px;
+  margin-bottom: 15px;
+  background-color: #f3f3f3;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .modal-form__textarea {
+    margin-bottom: 30px;
+    height: 114px;
+  }
+}
+
+.form-button__submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .form-button__submit {
+    width: 257px;
+  }
 }
 
 .footer {

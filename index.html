@@ -121,9 +121,7 @@
               <p class="honey__text">Є в наявності</p>
               <div class="honey__tablet-ct">
                 <p class="honey__text-sum">500 ₴</p>
-                <button class="button" type="button" data-modal-open>
-                  Придбати
-                </button>
+                <button class="button" type="button">Придбати</button>
               </div>
             </li>
             <li class="honey__item">
@@ -398,14 +396,17 @@
         <div class="footer__fourth">
           <ul class="fourth__list list">
             <li class="fourth__item">
-              <a class="fourth__link" href="">
+              <a
+                class="fourth__link"
+                href="https://play.google.com/store/apps/details?id=com.viber.voip&hl=uk&gl=US"
+              >
                 <svg class="fourth__social-icon">
                   <use href="./img/icons.svg#icon-viber"></use>
                 </svg>
               </a>
             </li>
             <li class="fourth__item">
-              <a class="fourth__link" href="">
+              <a class="fourth__link" href="https://desktop.telegram.org/">
                 <svg class="fourth__social-icon">
                   <use href="./img/icons.svg#icon-telegram"></use>
                 </svg>
@@ -425,179 +426,159 @@
     <!--------------------- Модальне вікно----------------------->
     <div class="modal is-hidden" data-modal>
       <div class="modal-window">
-        <h2 class="modal-title">Кошик</h2>
+        <div class="m-f">
+          <h2 class="modal-title">Кошик</h2>
 
-        <button class="modal-button" data-modal-close>
-          <svg class="modal-svg">
-            <use href="./img/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+          <button class="modal-button" data-modal-close>
+            <svg class="modal-svg">
+              <use href="./img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
 
-        <!-- ...................... Вибрані товари ...................... -->
-        <section class="modal__section">
-          <ul class="modal__list list">
-            <li class="modal__item">
-              <div class="modal__wrap">
-                <img class="modal__img" src="./img/honey-min.jpg" alt="Honey" />
-                <h2 class="modal__title">Мед 0.5 літрів</h2>
-              </div>
+          <!-- ...................... Вибрані товари ...................... -->
+          <section class="modal__section">
+            <ul class="modal__list list">
+              <li class="modal__item">
+                <div class="modal__wrap">
+                  <img
+                    class="modal__img"
+                    src="./img/honey-min.jpg"
+                    alt="Honey"
+                  />
+                  <h2 class="modal__title">Мед 0.5 літрів</h2>
+                </div>
 
-              <div class="modal__container">
-                <spam class="modal__span">
-                  <svg class="modal__icon-minus modal__svg">
-                    <use href="./img/icons.svg#icon-filter-minus"></use>
-                  </svg>
-                  1
-                  <svg class="modal__icon-ptys modal__svg">
-                    <use href="./img/icons.svg#icon-filter-plys"></use>
-                  </svg>
-                </spam>
+                <div class="modal__container">
+                  <spam class="modal__span">
+                    <svg class="modal__icon-minus modal__svg">
+                      <use href="./img/icons.svg#icon-filter-minus"></use>
+                    </svg>
+                    1
+                    <svg class="modal__icon-ptys modal__svg">
+                      <use href="./img/icons.svg#icon-filter-plys"></use>
+                    </svg>
+                  </spam>
 
-                <p class="modal__text">
-                  500 ₴
-                  <svg class="modal__icon-koshik">
-                    <use href="./img/icons.svg#icon-filter-koshik"></use>
-                  </svg>
-                </p>
-              </div>
-            </li>
+                  <p class="modal__text">
+                    500 ₴
+                    <svg class="modal__icon-koshik">
+                      <use href="./img/icons.svg#icon-filter-koshik"></use>
+                    </svg>
+                  </p>
+                </div>
+              </li>
 
-            <li class="modal__border-li"></li>
+              <li class="modal__border-li"></li>
 
-            <li class="modal__item">
-              <div class="modal__wrap">
-                <img class="modal__img" src="./img/honey-min.jpg" alt="Honey" />
-                <h2 class="modal__title">Мед 0.5 літрів</h2>
-              </div>
+              <li class="modal__item">
+                <div class="modal__wrap">
+                  <img
+                    class="modal__img"
+                    src="./img/honey-min.jpg"
+                    alt="Honey"
+                  />
+                  <h2 class="modal__title">Мед 0.5 літрів</h2>
+                </div>
 
-              <div class="modal__container">
-                <spam class="modal__span">
-                  <svg class="modal__icon-minus modal__svg">
-                    <use href="./img/icons.svg#icon-filter-minus"></use>
-                  </svg>
-                  1
-                  <svg class="modal__icon-ptys modal__svg">
-                    <use href="./img/icons.svg#icon-filter-plys"></use>
-                  </svg>
-                </spam>
+                <div class="modal__container">
+                  <spam class="modal__span">
+                    <svg class="modal__icon-minus modal__svg">
+                      <use href="./img/icons.svg#icon-filter-minus"></use>
+                    </svg>
+                    1
+                    <svg class="modal__icon-ptys modal__svg">
+                      <use href="./img/icons.svg#icon-filter-plys"></use>
+                    </svg>
+                  </spam>
 
-                <p class="modal__text">
-                  500 ₴
-                  <svg class="modal__icon-koshik">
-                    <use href="./img/icons.svg#icon-filter-koshik"></use>
-                  </svg>
-                </p>
-              </div>
-            </li>
+                  <p class="modal__text">
+                    500 ₴
+                    <svg class="modal__icon-koshik">
+                      <use href="./img/icons.svg#icon-filter-koshik"></use>
+                    </svg>
+                  </p>
+                </div>
+              </li>
 
-            <li class="modal__border-li"></li>
+              <li class="modal__border-li"></li>
 
-            <li class="modal__item">
-              <div class="modal__wrap">
-                <img class="modal__img" src="./img/honey-min.jpg" alt="Honey" />
-                <h2 class="modal__title">Мед 0.5 літрів</h2>
-              </div>
+              <li class="modal__item">
+                <div class="modal__wrap">
+                  <img
+                    class="modal__img"
+                    src="./img/honey-min.jpg"
+                    alt="Honey"
+                  />
+                  <h2 class="modal__title">Мед 0.5 літрів</h2>
+                </div>
 
-              <div class="modal__container">
-                <spam class="modal__span">
-                  <svg class="modal__icon-minus modal__svg">
-                    <use href="./img/icons.svg#icon-filter-minus"></use>
-                  </svg>
-                  1
-                  <svg class="modal__icon-ptys modal__svg">
-                    <use href="./img/icons.svg#icon-filter-plys"></use>
-                  </svg>
-                </spam>
+                <div class="modal__container">
+                  <spam class="modal__span">
+                    <svg class="modal__icon-minus modal__svg">
+                      <use href="./img/icons.svg#icon-filter-minus"></use>
+                    </svg>
+                    1
+                    <svg class="modal__icon-ptys modal__svg">
+                      <use href="./img/icons.svg#icon-filter-plys"></use>
+                    </svg>
+                  </spam>
 
-                <p class="modal__text">
-                  500 ₴
-                  <svg class="modal__icon-koshik">
-                    <use href="./img/icons.svg#icon-filter-koshik"></use>
-                  </svg>
-                </p>
-              </div>
-            </li>
+                  <p class="modal__text">
+                    500 ₴
+                    <svg class="modal__icon-koshik">
+                      <use href="./img/icons.svg#icon-filter-koshik"></use>
+                    </svg>
+                  </p>
+                </div>
+              </li>
 
-            <li class="modal__border-li"></li>
+              <li class="modal__border-li"></li>
 
-            <li class="modal-sum__li">
-              Вся сума:<span class="modal-sum__span">2000 ₴</span>
-            </li>
-          </ul>
-        </section>
+              <li class="modal-sum__li">
+                Вся сума:<span class="modal-sum__span">2000 ₴</span>
+              </li>
+            </ul>
+          </section>
+        </div>
 
         <!-- ..................... Форми ..................... -->
-        <form class="modal-form" autocomplete="on">
-          <!-- <h2>Формування замовлення</h2> -->
+        <form
+          class="modal-form"
+          name="signup_form"
+          autocomplete="on"
+          novalidate
+        >
+          <h2 class="modal-form__title">Формування замовлення</h2>
 
-          <!-- <label for="modal-name" class="form-label">Имя</label>
-          <div class="modal-container">
-            <input
-              type="text"
-              class="form-input"
-              name="modal-name"
-              id="modal-name"
-            />
-            <svg class="modal-form-svg">
-              <use href="./images/icons.svg#icon-person-black"></use>
-            </svg>
+          <div class="form-containrt__label">
+            <label class="modal-form__label">
+              <input
+                class="modai-form__input"
+                type="email"
+                name="email"
+                placeholder="Ваше ім’я"
+              />
+            </label>
+
+            <label class="modal-form__label">
+              <input
+                class="modai-form__input"
+                type="phone"
+                name="phone"
+                placeholder="Ваш номер телефону"
+              />
+            </label>
           </div>
 
-          <label for="modal-tel" class="form-label">Телефон</label>
-          <div class="modal-container">
-            <input
-              type="tel"
-              class="form-input"
-              name="modal-tel"
-              id="modal-tel"
-            />
-            <svg class="modal-form-svg">
-              <use href="./images/icons.svg#icon-phone-black"></use>
-            </svg>
-          </div>
-
-          <label for="modal-email" class="form-label">Почта</label>
-
-          <div class="modal-container">
-            <input
-              type="email"
-              class="form-input"
-              name="modal-email"
-              id="modal-email"
-            />
-            <svg class="modal-form-svg">
-              <use href="./images/icons.svg#icon-email-black"></use>
-            </svg>
-          </div>  -->
-
-          <!-- <label for="modal-comment" class="form-label">Комментарий</label>
           <textarea
-            name="modal-comment"
-            placeholder="Введите текст"
-            class="form-textarea"
-            id="modal-comment"
-          >
-          </textarea>
+            class="modal-form__textarea"
+            name="message"
+            placeholder="Коментар до замовлення"
+          ></textarea>
 
-          <label class="label-checkbox">
-            <input
-              class="checkbox-h"
-              type="checkbox"
-              name="checkbox"
-              value="checkbox"
-            />
-
-            <span class="icon"></span>
-
-            <span class="span-checkbox"
-              >Соглашаюсь с рассылкой и принимаю
-              <a class="link-checkbox" href="">Условия договора</a>
-            </span>
-          </label> -->
-
-          <!-- <button type="submit" class="button button-submit">
+          <button type="submit" class="button form-button__submit">
             Оформити замовлення
-          </button> -->
+          </button>
         </form>
       </div>
     </div>
