@@ -12,7 +12,6 @@
 @import './components/section__title-h3';
 
 @import './header/page-header';
-@import './header/header-logo';
 @import './header/nav';
 @import './header/menu-hed';
 
@@ -27,6 +26,13 @@
 @import './layout/modal-window';
 @import './layout/modal__section';
 @import './layout/modal__form';
+
+@import './layout/gallery';
+
+@import './layout/scroll_up';
+
+@import './layout/mobile__btn-menu';
+@import './layout/mobile__menu';
 
 @import './footer/address';
 @import './footer/footer__second';

@@ -31,6 +31,11 @@
     height: 50px;
     border-radius: 25px;
   }
+
+  &:hover,
+  &:focus {
+    border: $button-hover-color;
+  }
 }
 
 .curent__icon-svg {
@@ -38,4 +43,6 @@
   height: 18px;
 
   margin-right: 8px;
+
+  fill: $curent-btn;
 }

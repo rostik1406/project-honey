@@ -1,5 +1,21 @@
+.page-header {
+  position: sticky;
+  top: 0;
+}
+
 .container__page-header {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
   display: flex;
+}
+
+.header-logo {
+  width: 35%;
+  padding-right: 22px;
+
+  background-color: $accent-color;
 }
 
 .header-logo__link {
@@ -12,17 +28,29 @@
   display: block;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 22px;
   line-height: 1.5;
 
   text-transform: uppercase;
   color: $white-font-color;
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
 }
 
 .logo__span {
   text-align: right;
   display: block;
 
-  font-size: 18px;
+  font-size: 11px;
   color: $white-font-color;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }

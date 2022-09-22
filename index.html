@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-honey</title>
+    <meta name="description" content="Процент" />
 
     <link
       rel="stylesheet"
@@ -74,11 +75,15 @@
                 </svg>
               </a>
             </li>
+            <li class="second-nav__item">
+              <button class="header__button" type="button">
+                <svg class="header__button__icon-svg">
+                  <use href="./img/icons.svg#icon-koshik__white"></use>
+                </svg>
+                Кошик
+              </button>
+            </li>
           </ul>
-
-          <!-- <li class="second-nav__item">
-              <button class="button" type="button">Кошик</button>
-            </li> -->
         </nav>
       </div>
 
@@ -98,6 +103,18 @@
           </ul>
         </div>
       </div>
+
+      <!------------------- mob-menu -------------------->
+      <button
+        class="menu-toggle js-open-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="menu-toggle__icon-menu" width="23" height="14">
+          <use href="./img/icons.svg#icon-Group-3"></use>
+        </svg>
+      </button>
     </header>
 
     <!--................................  main ................................ -->
@@ -371,12 +388,13 @@
         <!-- .................................. address .................................. -->
         <address class="address">
           <ul class="address__list list">
-            <li class="address-item">
+            <li class="address__item">
               <a
-                href="tel:+380961111111"
+                href="tel:+380666817731"
                 target="_blank"
                 rel="noopener noindex nofollow"
                 class="address__link"
+                text-align="center"
               >
                 <svg class="address__phone-icon">
                   <use href="./img/icons.svg#icon-phone"></use>
@@ -453,6 +471,22 @@
         </div>
       </section>
     </footer>
+
+    <!-- ................... Cкрол іконка ................... -->
+    <div class="scroll-up">
+      <svg class="scroll-up__sircle" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up__sircle-path"
+          d="
+    M24,0
+    a24,24 0 0,1 0,48
+    a24,24 0 0,1 0,-48"
+        />
+      </svg>
+      <svg class="scroll-up__icon">
+        <use href="./img/icons.svg#icon-halochke-top"></use>
+      </svg>
+    </div>
 
     <!--------------------- Модальне вікно----------------------->
     <div class="modal is-hidden" data-modal>
@@ -614,7 +648,39 @@
       </div>
     </div>
 
-    <!--------------------- Модальне вікно javaScript----------------------->
+    <!---------------------- menu-button ------------------------>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="mobil-container">
+        <button class="menu-toggle js-close-menu">
+          <svg class="menu-toggle__icon-menu" width="40" height="40">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-menu list">
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link active">Карпатський мед</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="./portfolio.html" class="mobile-menu__link"
+              >Карпатський чай</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link">Варення з чорниці</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--------------------------javaScript---------------------------->
+    <!------------ mobile__menu ------------->
+    <script defer src="./js/mobil__menu.js" type="module"></script>
+
+    <!----------- modal ------------>
     <script src="./js/modal.js" type="module"></script>
+
+    <!------------ scroll__up ------------->
+    <script src="./js/scroll__up.js" type="module"></script>
   </body>
 </html>

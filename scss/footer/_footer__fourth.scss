@@ -23,6 +23,9 @@
 
 .fourth__link {
   fill: $secondery-font-color;
+  display: block;
+  width: 41px;
+  height: 39px;
 
   &:hover,
   &:focus {
