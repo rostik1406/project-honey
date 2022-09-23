@@ -25,20 +25,8 @@
   display: block;
   color: $premari-font-color;
   text-decoration: none;
-
-  //   transition-property: color;
-  //   transition-duration: 250ms;
-  //   transition-timing-function: var(--cubic-bezier);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
 }
 
-.active {
-  color: var(--accent-color);
-}
 ////////////// стилі до списку mobile-menu //////////////
 .mobil-container {
   padding-left: 15px;
@@ -75,8 +63,4 @@
   &:focus {
     color: var(--accent-color);
   }
-}
-
-.active {
-  color: var(--accent-color);
 }

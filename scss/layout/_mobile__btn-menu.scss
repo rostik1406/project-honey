@@ -1,3 +1,8 @@
+.mobile__container__tel {
+  display: flex;
+  align-items: center;
+}
+
 .menu-toggle {
   min-height: 68px;
   min-width: 68px;
@@ -6,12 +11,11 @@
   justify-content: center;
 
   margin: 0;
-  margin-left: auto;
   padding: 0;
+
   background-color: $accent-color;
   cursor: pointer;
   border: none;
-  //   border-radius: 50%;
   outline: none;
 
   @media (min-width: 768px) {
@@ -50,9 +54,74 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  color: var(--title-text-color);
 }
 
 .menu-container {
   overflow: scroll;
+}
+
+// .....................secondery__menu__basket.....................
+.secondery__menu__basket {
+  min-height: 68px;
+  min-width: 68px;
+
+  padding: 0;
+  margin: 0;
+
+  margin-left: auto;
+
+  background-color: $accent-color;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.secondery__menu__basket__icon {
+  width: 26px;
+  height: 25px;
+}
+
+// .........................mobile__container__logo.....................
+.mobile__container__logo {
+  width: 100%;
+  height: 68px;
+
+  text-align: center;
+
+  margin: 0;
+  padding-top: 9px;
+
+  background-color: $white-font-color;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 3px;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile__header-logo__link {
+  color: $premari-font-color;
+}
+
+.mobile__logo__text {
+  font-size: 25px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 32px;
+  }
+}
+
+.mobile__logo__span {
+  font-size: 10px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+  }
 }
