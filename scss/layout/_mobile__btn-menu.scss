@@ -1,6 +1,10 @@
 .mobile__container__tel {
   display: flex;
   align-items: center;
+
+  position: sticky;
+
+  margin-bottom: 24px;
 }
 
 .menu-toggle {
