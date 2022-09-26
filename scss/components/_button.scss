@@ -23,18 +23,6 @@
     background: $button-hover-color;
   }
 
-  &::before {
-    content: '';
-    width: 16px;
-    height: 16px;
-
-    margin-right: 10px;
-
-    background-image: url(../img/akar-icons_plus.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
   @media screen and (min-width: 768px) {
     width: 125px;
     height: 38px;
