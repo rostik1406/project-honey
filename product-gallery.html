@@ -13,164 +13,337 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- .................... main .................... -->
-    <main>
-      <a class="gallery__nav__link" href="">
-        <svg class="gallery__icon-halochka-left">
-          <use href="./img/icons.svg#icon-halochka-left"></use>
-        </svg>
-        Мед Карпатський</a
-      >
-      <h1 class="gallery__nav__title">Мед травневий</h1>
-      <p class="gallery__nav__text">
-        <svg class="gallery__icon-halochka">
-          <use href="./img/icons.svg#icon-halochka"></use>
-        </svg>
-        Є в наявності
-      </p>
+    <!-- ................................... Header ................................... -->
+    <header class="page-header">
+      <div class="container__page-header">
+        <div class="header-logo">
+          <a class="header-logo__link" href="">
+            <p class="logo__text">Gerbata.com.ua</p>
 
-      <!-- .................... gallery .................... -->
-      <section class="gallery">
-        <h2 class="visually-hidden">Галерея-слайд</h2>
+            <span class="logo__span">Онлайн-магазин натуральних товарів</span>
+          </a>
+        </div>
 
-        <div class="gallery__item">
-          <input
-            type="radio"
-            id="img-1"
-            checked
-            name="gallery"
-            class="gallery__selector"
-          />
-          <img
-            class="gallery__img"
-            src="https://picsum.photos/id/1015/600/400.jpg"
-            alt=""
-          />
-          <label for="img-1" class="gallery__thumb"
-            ><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""
-          /></label>
-        </div>
-        <div class="gallery__item">
-          <input
-            type="radio"
-            id="img-2"
-            name="gallery"
-            class="gallery__selector"
-          />
-          <img
-            class="gallery__img"
-            src="./img/honey-min.jpg"
-            alt=""
-            width="370"
-            height="555"
-          />
-          <label for="img-2" class="gallery__thumb"
-            ><img src="./img/honey-min.jpg" alt="" width="100" height="100"
-          /></label>
-        </div>
-        <div class="gallery__item">
-          <input
-            type="radio"
-            id="img-3"
-            name="gallery"
-            class="gallery__selector"
-          />
-          <img
-            class="gallery__img"
-            src="https://picsum.photos/id/1057/600/400.jpg"
-            alt=""
-          />
-          <label for="img-3" class="gallery__thumb"
-            ><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""
-          /></label>
-        </div>
-        <div class="gallery__item">
-          <input
-            type="radio"
-            id="img-4"
-            name="gallery"
-            class="gallery__selector"
-          />
-          <img
-            class="gallery__img"
-            src="https://picsum.photos/id/106/600/400.jpg"
-            alt=""
-          />
-          <label for="img-4" class="gallery__thumb"
-            ><img src="https://picsum.photos/id/106/150/100.jpg" alt=""
-          /></label>
-        </div>
-      </section>
+        <!-- ................... nav ................... -->
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a
+                href="tel:+380961111111"
+                target="_blank"
+                rel="noopener noindex nofollow"
+                class="nav__link"
+              >
+                <svg class="nav__social-icon">
+                  <use href="./img/icons.svg#icon-phone"></use>
+                </svg>
+                +38 (066) 68-17-731</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://goo.gl/maps/R2SxpzTBWNpm6xfB9"
+                class="nav__link"
+                target="_blank"
+              >
+                <svg class="nav__social-icon">
+                  <use href="./img/icons.svg#icon-map"></use>
+                </svg>
+                с. Хітар, Львівська обл.</a
+              >
+            </li>
+          </ul>
 
-      <!-- .................... gallery__delivery .................... -->
-      <section class="gallery__delivery">
+          <!-- ................... second-nav__list ................... -->
+          <ul class="second-nav__list list">
+            <li class="second-nav__item">
+              <a
+                target="_blank"
+                class="second-nav__link"
+                href="https://play.google.com/store/apps/details?id=com.viber.voip&hl=uk&gl=US"
+              >
+                <svg class="second-nav__social-icon">
+                  <use href="./img/icons.svg#icon-viber"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-nav__item">
+              <a
+                target="_blank"
+                class="second-nav__link"
+                href="https://desktop.telegram.org/"
+              >
+                <svg class="second-nav__social-icon">
+                  <use href="./img/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-nav__item">
+              <button class="header__button" type="button">
+                <svg class="header__button__icon-svg">
+                  <use href="./img/icons.svg#icon-koshik__white"></use>
+                </svg>
+                Кошик
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- ........................ menu-hed ........................ -->
+      <div class="menu-hed">
         <div class="container">
-          <h2 class="gallery__title-h2">Спосіб доставки:</h2>
-
-          <ul class="delivery__list list">
-            <li class="delivery__item">
-              <svg class="gallery__nav__icon-link">
-                <use href="./img/icons.svg#icon-form-map"></use>
-              </svg>
-              Укрпошта
-              <svg class="delivery__icon-halochka">
-                <use href="./img/icons.svg#icon-halochke-top"></use>
-              </svg>
+          <ul class="menu-hed__list list">
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Карпатський мед</a>
             </li>
-
-            <li class="delivery__item delivery__item__text">
-              <p class="delivery__text">
-                Вартість доставки - від 69 грн <br />
-                Відправляємо не пізніше 3х днівпісля замовлення <br />
-                Умови повернення читайте за посиланням
-                <a class="delivery__text__span-link" href=""
-                  >Умови повернення</a
-                >
-              </p>
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Карпатський чай</a>
             </li>
-
-            <li class="delivery__item">
-              <svg class="delivery__icon-nova-poshta">
-                <use href="./img/icons.svg#icon-nova-poshta"></use>
-              </svg>
-              Нова пошта
-              <svg class="delivery__icon-halochka">
-                <use href="./img/icons.svg#icon-halochka-bottom"></use>
-              </svg>
-            </li>
-
-            <li class="delivery__item">
-              <svg class="delivery__icon-meest">
-                <use href="./img/icons.svg#icon-meest"></use>
-              </svg>
-              Міст експрес
-              <svg class="delivery__icon-halochka">
-                <use href="./img/icons.svg#icon-halochka-bottom"></use>
-              </svg>
-            </li>
-
-            <li class="delivery__item">
-              <svg class="delivery__icon-mashina">
-                <use href="./img/icons.svg#icon-mashina"></use>
-              </svg>
-              Кур’єром
-              <svg class="delivery__icon-halochka">
-                <use href="./img/icons.svg#icon-halochka-bottom"></use>
-              </svg>
-            </li>
-
-            <li class="delivery__item">
-              <svg class="delivery__icon-delivery">
-                <use href="./img/icons.svg#icon-delivery"></use>
-              </svg>
-              Делівері
-              <svg class="delivery__icon-halochka">
-                <use href="./img/icons.svg#icon-halochka-bottom"></use>
-              </svg>
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Варення з чорниці</a>
             </li>
           </ul>
         </div>
+      </div>
+
+      <!------------------- mob__menu__hed -------------------->
+      <section class="mobile__container__tel">
+        <button
+          class="menu-toggle js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-toggle__icon-menu" width="23" height="14">
+            <use href="./img/icons.svg#icon-Group-3"></use>
+          </svg>
+        </button>
+
+        <div class="mobile__container__logo">
+          <a class="mobile__header-logo__link" href="">
+            <p class="mobile__logo__text">Gerbata.com.ua</p>
+
+            <span class="mobile__logo__span"
+              >Онлайн-магазин натуральних товарів</span
+            >
+          </a>
+        </div>
+
+        <button
+          class="secondery__menu__basket"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="secondery__menu__basket__icon" width="23" height="14">
+            <use href="./img/icons.svg#icon-koshik__white"></use>
+          </svg>
+        </button>
       </section>
+    </header>
+
+    <!-- .................... main .................... -->
+    <main>
+      <!-- ............... gallery__wraper__none ............... -->
+      <div class="gallery__wraper__none">
+        <a class="gallery__nav__link" href="">
+          <svg class="gallery__icon-halochka-left">
+            <use href="./img/icons.svg#icon-halochka-left"></use>
+          </svg>
+          Мед Карпатський</a
+        >
+        <h1 class="gallery__nav__title">Мед травневий</h1>
+        <p class="gallery__nav__text">
+          <svg class="gallery__icon-halochka">
+            <use href="./img/icons.svg#icon-halochka"></use>
+          </svg>
+          Є в наявності
+        </p>
+      </div>
+
+      <!-- .............. gallery__wraper__is-none .............. -->
+      <div class="gallery__wraper__is-none">
+        <ul class="wraper__is-none__list list">
+          <li class="wraper__is-none__item">
+            <a class="wraper__is-none__link" href=""
+              >Головна сторінка
+              <svg class="wraper__is-none__icon">
+                <use href="./img/icons.svg#icon-arrow-left-bold"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="wraper__is-none__item">
+            <a class="wraper__is-none__link" href=""
+              >Мед Карпатський
+              <svg class="wraper__is-none__icon">
+                <use href="./img/icons.svg#icon-arrow-left-bold"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="wraper__is-none__item">
+            <a
+              class="wraper__is-none__link wraper__is-none__link-active"
+              href=""
+              >Мед Травневий</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div class="xxx"> -->
+        <!-- .................... gallery .................... -->
+        <section class="gallery">
+          <h2 class="visually-hidden">Галерея-слайд</h2>
+
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-1"
+              checked
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img
+              class="gallery__img"
+              src="https://picsum.photos/id/1015/600/400.jpg"
+              alt=""
+            />
+            <label for="img-1" class="gallery__thumb"
+              ><img src="https://picsum.photos/id/1015/150/100.jpg" alt=""
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-2"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img
+              class="gallery__img"
+              src="./img/honey-min.jpg"
+              alt=""
+              width="370"
+              height="555"
+            />
+            <label for="img-2" class="gallery__thumb"
+              ><img src="./img/honey-min.jpg" alt="" width="100" height="100"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-3"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img
+              class="gallery__img"
+              src="https://picsum.photos/id/1057/600/400.jpg"
+              alt=""
+            />
+            <label for="img-3" class="gallery__thumb"
+              ><img src="https://picsum.photos/id/1057/150/100.jpg" alt=""
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-4"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img
+              class="gallery__img"
+              src="https://picsum.photos/id/106/600/400.jpg"
+              alt=""
+            />
+            <label for="img-4" class="gallery__thumb"
+              ><img src="https://picsum.photos/id/106/150/100.jpg" alt=""
+            /></label>
+          </div>
+        </section>
+
+        <!-- .................... gallery__delivery .................... -->
+        <section class="gallery__delivery">
+          <div class="container">
+            <h2 class="gallery__title-h2">Спосіб доставки:</h2>
+
+            <ul class="delivery__list list">
+              <li class="delivery__item">
+                <a href="" class="delivery__link">
+                  <svg class="gallery__nav__icon-link">
+                    <use href="./img/icons.svg#icon-form-map"></use>
+                  </svg>
+                  Укрпошта
+                  <svg class="delivery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochke-top"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="delivery__item delivery__item__text">
+                <p class="delivery__text">
+                  Вартість доставки - від 69 грн <br />
+                  Відправляємо не пізніше 3х днівпісля замовлення <br />
+                  Умови повернення читайте за посиланням
+                  <a class="delivery__text__span-link" href=""
+                    >Умови повернення</a
+                  >
+                </p>
+              </li>
+
+              <li class="delivery__item">
+                <a href="" class="delivery__link"
+                  ><svg class="delivery__icon-nova-poshta">
+                    <use href="./img/icons.svg#icon-nova-poshta"></use>
+                  </svg>
+                  Нова пошта
+                  <svg class="delivery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochka-bottom"></use></svg
+                ></a>
+              </li>
+
+              <li class="delivery__item">
+                <a href="" class="delivery__link">
+                  <svg class="delivery__icon-meest">
+                    <use href="./img/icons.svg#icon-meest"></use>
+                  </svg>
+                  Міст експрес
+                  <svg class="delivery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="delivery__item">
+                <a href="" class="delivery__link">
+                  <svg class="delivery__icon-mashina">
+                    <use href="./img/icons.svg#icon-mashina"></use>
+                  </svg>
+                  Кур’єром
+                  <svg class="delivery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="delivery__item">
+                <a href="" class="delivery__link">
+                  <svg class="delivery__icon-delivery">
+                    <use href="./img/icons.svg#icon-delivery"></use>
+                  </svg>
+                  Делівері
+                  <svg class="delivery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      <!-- </div> -->
 
       <!-- .................... description .................... -->
       <section class="description">
@@ -183,7 +356,7 @@
             blanditiis, aspernatur dolor iure provident recusandae
             exercitationem, obcaecati quo nostrum voluptas?
           </p>
-          <br />
+          <!-- <br /> -->
           <p class="description__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
             ducimus iste! Consequatur, fuga possimus? Facere, repellat ullam!
@@ -259,6 +432,7 @@
           <ul class="fourth__list list">
             <li class="fourth__item">
               <a
+                target="_blank"
                 class="fourth__link"
                 href="https://play.google.com/store/apps/details?id=com.viber.voip&hl=uk&gl=US"
               >
@@ -268,7 +442,11 @@
               </a>
             </li>
             <li class="fourth__item">
-              <a class="fourth__link" href="https://desktop.telegram.org/">
+              <a
+                target="_blank"
+                class="fourth__link"
+                href="https://desktop.telegram.org/"
+              >
                 <svg class="fourth__social-icon">
                   <use href="./img/icons.svg#icon-telegram"></use>
                 </svg>
@@ -284,5 +462,25 @@
         </div>
       </section>
     </footer>
+
+    <!-- ................... Cкрол іконка ................... -->
+    <div class="scroll-up">
+      <svg class="scroll-up__sircle" viewBox="-2 -2 52 52">
+        <path
+          class="scroll-up__sircle-path"
+          d="
+    M24,0
+    a24,24 0 0,1 0,48
+    a24,24 0 0,1 0,-48"
+        />
+      </svg>
+      <svg class="scroll-up__icon">
+        <use href="./img/icons.svg#icon-halochke-top"></use>
+      </svg>
+    </div>
+
+    <!--------------------------javaScript---------------------------->
+    <!------------ scroll__up ------------->
+    <script src="./js/scroll__up.js" type="module"></script>
   </body>
 </html>

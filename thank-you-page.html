@@ -16,7 +16,138 @@
   </head>
 
   <body>
+    <!-- ................................... Header ................................... -->
+    <header class="page-header">
+      <div class="container__page-header">
+        <div class="header-logo">
+          <a class="header-logo__link" href="">
+            <p class="logo__text">Gerbata.com.ua</p>
+
+            <span class="logo__span">Онлайн-магазин натуральних товарів</span>
+          </a>
+        </div>
+
+        <!-- ................... nav ................... -->
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a
+                href="tel:+380961111111"
+                target="_blank"
+                rel="noopener noindex nofollow"
+                class="nav__link"
+              >
+                <svg class="nav__social-icon">
+                  <use href="./img/icons.svg#icon-phone"></use>
+                </svg>
+                +38 (066) 68-17-731</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://goo.gl/maps/R2SxpzTBWNpm6xfB9"
+                class="nav__link"
+                target="_blank"
+              >
+                <svg class="nav__social-icon">
+                  <use href="./img/icons.svg#icon-map"></use>
+                </svg>
+                с. Хітар, Львівська обл.</a
+              >
+            </li>
+          </ul>
+
+          <!-- ................... second-nav__list ................... -->
+          <ul class="second-nav__list list">
+            <li class="second-nav__item">
+              <a
+                target="_blank"
+                class="second-nav__link"
+                href="https://play.google.com/store/apps/details?id=com.viber.voip&hl=uk&gl=US"
+              >
+                <svg class="second-nav__social-icon">
+                  <use href="./img/icons.svg#icon-viber"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-nav__item">
+              <a
+                target="_blank"
+                class="second-nav__link"
+                href="https://desktop.telegram.org/"
+              >
+                <svg class="second-nav__social-icon">
+                  <use href="./img/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-nav__item">
+              <button class="header__button" type="button">
+                <svg class="header__button__icon-svg">
+                  <use href="./img/icons.svg#icon-koshik__white"></use>
+                </svg>
+                Кошик
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- ........................ menu-hed ........................ -->
+      <div class="menu-hed">
+        <div class="container">
+          <ul class="menu-hed__list list">
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Карпатський мед</a>
+            </li>
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Карпатський чай</a>
+            </li>
+            <li class="menu-hed__item">
+              <a class="menu-hed__link" href="">Варення з чорниці</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!------------------- mob__menu__hed -------------------->
+      <section class="mobile__container__tel">
+        <button
+          class="menu-toggle js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-toggle__icon-menu" width="23" height="14">
+            <use href="./img/icons.svg#icon-Group-3"></use>
+          </svg>
+        </button>
+
+        <div class="mobile__container__logo">
+          <a class="mobile__header-logo__link" href="">
+            <p class="mobile__logo__text">Gerbata.com.ua</p>
+
+            <span class="mobile__logo__span"
+              >Онлайн-магазин натуральних товарів</span
+            >
+          </a>
+        </div>
+
+        <button
+          class="secondery__menu__basket"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="secondery__menu__basket__icon" width="23" height="14">
+            <use href="./img/icons.svg#icon-koshik__white"></use>
+          </svg>
+        </button>
+      </section>
+    </header>
+
     <main>
+      <!--  ....................  main ...................... -->
       <section class="section thanks__hero-fon">
         <div class="thanks__hero container">
           <div class="thanks-cnt__img">
@@ -302,6 +433,7 @@
           <ul class="fourth__list list">
             <li class="fourth__item">
               <a
+                target="_blank"
                 class="fourth__link"
                 href="https://play.google.com/store/apps/details?id=com.viber.voip&hl=uk&gl=US"
               >
@@ -311,7 +443,11 @@
               </a>
             </li>
             <li class="fourth__item">
-              <a class="fourth__link" href="https://desktop.telegram.org/">
+              <a
+                target="_blank"
+                class="fourth__link"
+                href="https://desktop.telegram.org/"
+              >
                 <svg class="fourth__social-icon">
                   <use href="./img/icons.svg#icon-telegram"></use>
                 </svg>

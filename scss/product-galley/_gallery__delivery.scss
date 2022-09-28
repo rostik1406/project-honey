@@ -1,20 +1,33 @@
+// .xxx {
+//   display: flex;
+// }
+
 // ...................gallery__delivery.....................
 .gallery__delivery {
   margin-bottom: 42px;
+  padding: 0;
 }
 
 // ...................delivery__list__ul.....................
 .delivery__list {
   margin: 0 auto;
+  padding: 0;
 
   width: 100%;
 
   @media screen and (min-width: 480px) {
-    width: 480px;
+    width: 440px;
   }
 }
 
 .delivery__item {
+  margin-bottom: 15px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.delivery__link {
   display: flex;
   align-items: center;
 
@@ -23,11 +36,6 @@
 
   border-radius: 48px;
   background-color: $delivery-background;
-
-  margin-bottom: 15px;
-  &:last-child {
-    margin: 0;
-  }
 
   padding: 0 15px;
 
@@ -40,6 +48,7 @@
   }
 }
 
+//  ...............................//
 .gallery__nav__icon-link {
   width: 17px;
   height: 25px;
