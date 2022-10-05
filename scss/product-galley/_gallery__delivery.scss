@@ -1,8 +1,87 @@
 // ...................gallery__delivery.....................
-// .gallery__delivery {
-//   margin-bottom: 42px;
-//   padding: 0;
-// }
+.gallery__delivery {
+  @media screen and (min-width: 480px) {
+    width: 440px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 538px;
+  }
+}
+
+// <!-- .............. gallery__delivery  ............ -->
+.gallery__desctop-ct {
+  margin-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.desctop-ct__title {
+  margin-bottom: 12px;
+
+  font-size: 48px;
+}
+
+.desctop-ct__text {
+  margin-bottom: 38px;
+  color: $green-font-color;
+
+  font-size: 16px;
+}
+
+// ....................... desctop-ct__sum-btn ....................../
+.desctop-ct__sum-btn {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+
+    width: 440px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 538px;
+  }
+}
+
+.sum-btn__text {
+  font-size: 34px;
+  @media screen and (min-width: 1200px) {
+    font-size: 48px;
+  }
+}
+
+// ............... desctop-ct__button .................
+.desctop-ct__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 125px;
+  height: 38px;
+
+  margin: 0;
+  margin-left: auto;
+
+  border: none;
+  background: $button-color;
+  border-radius: 19px;
+
+  font-size: 16px;
+  line-height: 0.66;
+
+  color: $white-font-color;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: $button-hover-color;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 153px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
 
 // ...................delivery__list__ul.....................
 .delivery__list {
@@ -13,6 +92,9 @@
 
   @media screen and (min-width: 480px) {
     width: 440px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 538px;
   }
 }
 

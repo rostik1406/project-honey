@@ -194,87 +194,159 @@
       <!-- ................... gallery  gallery__delivery ................... -->
       <section class="gallery__gallery__delivery">
         <div class="container">
-          <!-- .................... gallery .................... -->
-          <div class="gallery__one">
-            <h2 class="visually-hidden">Галерея-слайд</h2>
+          <div class="ct-gallery__flex">
+            <!-- .................... gallery .................... -->
+            <div class="gallery">
+              <h2 class="visually-hidden">Галерея-слайд</h2>
 
-            <!--  -->
+              <img
+                class="gallery__images-slider"
+                src="./img/gallery-background-min.jpg"
+                alt="Мед"
+              />
 
-          <!-- .....,,,,,,,,,,,,,............... gallery__delivery .......,,,,,,,,,,,,,............. -->
-          <div class="gallery__delivery">
-            <h2 class="gallery__title-h2">Спосіб доставки:</h2>
-
-            <ul class="delivery__list list">
-              <li class="delivery__item">
-                <a href="" class="delivery__link">
-                  <svg class="delivery__nav__icon-link">
-                    <use href="./img/icons.svg#icon-form-map"></use>
-                  </svg>
-                  Укрпошта
-                  <svg class="delivery__icon-halochka">
-                    <use href="./img/icons.svg#icon-halochke-top"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="delivery__item delivery__item__text">
-                <p class="delivery__text">
-                  Вартість доставки - від 69 грн <br />
-                  Відправляємо не пізніше 3х днівпісля замовлення <br />
-                  Умови повернення читайте за посиланням
-                  <a class="delivery__text__span-link" href=""
-                    >Умови повернення</a
+              <ul class="grid list">
+                <li class="grid__item">
+                  <a
+                    class="grid__link"
+                    data-fslightbox="gallery"
+                    href="./img/gallery-slider-min.jpg"
                   >
+                    <img
+                      class="grid__img"
+                      src="./img/gallery-slider-min.jpg"
+                      alt="Мед"
+                    />
+                  </a>
+                </li>
+                <li class="grid__item">
+                  <a
+                    class="grid__link"
+                    data-fslightbox="gallery"
+                    href="./img/aaaaaaaaaaaaa.jpg"
+                  >
+                    <img class="c" src="./img/aaaaaaaaaaaaa.jpg" alt="Мед" />
+                  </a>
+                </li>
+                <li class="grid__item">
+                  <a
+                    class="grid__link"
+                    data-fslightbox="gallery"
+                    href="./img/gallery-slider-min.jpg"
+                  >
+                    <img
+                      class="grid__img"
+                      src="./img/gallery-slider-min.jpg"
+                      alt="Мед"
+                    />
+                  </a>
+                </li>
+
+                <li class="grid__item">
+                  <button class="grid__button" type="button">Ще</button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- .............. gallery__delivery  ............ -->
+            <div class="gallery__delivery">
+              <!-- ............ desctop-ct ............. -->
+              <div class="gallery__desctop-ct">
+                <h2 class="desctop-ct__title">Мед травневий</h2>
+                <p class="desctop-ct__text">
+                  <svg class="gallery__icon-halochka">
+                    <use href="./img/icons.svg#icon-halochka"></use>
+                  </svg>
+                  Є в наявності
                 </p>
-              </li>
+                <div class="desctop-ct__sum-btn">
+                  <p class="sum-btn__text">Ціна: 500₴</p>
+                  <button class="desctop-ct__button" type="button">
+                    <svg class="plus__icon-svg">
+                      <use href="./img/icons.svg#icon-plus"></use>
+                    </svg>
+                    Придбати
+                  </button>
+                </div>
+              </div>
 
-              <li class="delivery__item">
-                <a href="" class="delivery__link"
-                  ><svg class="delivery__icon-nova-poshta">
-                    <use href="./img/icons.svg#icon-nova-poshta"></use>
-                  </svg>
-                  Нова пошта
-                  <svg class="delivery__icon-halochka">
-                    <use href="./img/icons.svg#icon-halochka-bottom"></use></svg
-                ></a>
-              </li>
+              <!-- ................. delivery__list ................ -->
+              <h2 class="gallery__title-h2">Спосіб доставки:</h2>
 
-              <li class="delivery__item">
-                <a href="" class="delivery__link">
-                  <svg class="delivery__icon-meest">
-                    <use href="./img/icons.svg#icon-meest"></use>
-                  </svg>
-                  Міст експрес
-                  <svg class="delivery__icon-halochka">
-                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
-                  </svg>
-                </a>
-              </li>
+              <ul class="delivery__list list">
+                <li class="delivery__item">
+                  <a href="" class="delivery__link">
+                    <svg class="delivery__nav__icon-link">
+                      <use href="./img/icons.svg#icon-form-map"></use>
+                    </svg>
+                    Укрпошта
+                    <svg class="delivery__icon-halochka">
+                      <use href="./img/icons.svg#icon-halochke-top"></use>
+                    </svg>
+                  </a>
+                </li>
 
-              <li class="delivery__item">
-                <a href="" class="delivery__link">
-                  <svg class="delivery__icon-mashina">
-                    <use href="./img/icons.svg#icon-mashina"></use>
-                  </svg>
-                  Кур’єром
-                  <svg class="delivery__icon-halochka">
-                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
-                  </svg>
-                </a>
-              </li>
+                <li class="delivery__item delivery__item__text">
+                  <p class="delivery__text">
+                    Вартість доставки - від 69 грн <br />
+                    Відправляємо не пізніше 3х днівпісля замовлення <br />
+                    Умови повернення читайте за посиланням
+                    <a class="delivery__text__span-link" href=""
+                      >Умови повернення</a
+                    >
+                  </p>
+                </li>
 
-              <li class="delivery__item">
-                <a href="" class="delivery__link">
-                  <svg class="delivery__icon-delivery">
-                    <use href="./img/icons.svg#icon-delivery"></use>
-                  </svg>
-                  Делівері
-                  <svg class="delivery__icon-halochka">
-                    <use href="./img/icons.svg#icon-halochka-bottom"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+                <li class="delivery__item">
+                  <a href="" class="delivery__link"
+                    ><svg class="delivery__icon-nova-poshta">
+                      <use href="./img/icons.svg#icon-nova-poshta"></use>
+                    </svg>
+                    Нова пошта
+                    <svg class="delivery__icon-halochka">
+                      <use
+                        href="./img/icons.svg#icon-halochka-bottom"
+                      ></use></svg
+                  ></a>
+                </li>
+
+                <li class="delivery__item">
+                  <a href="" class="delivery__link">
+                    <svg class="delivery__icon-meest">
+                      <use href="./img/icons.svg#icon-meest"></use>
+                    </svg>
+                    Міст експрес
+                    <svg class="delivery__icon-halochka">
+                      <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="delivery__item">
+                  <a href="" class="delivery__link">
+                    <svg class="delivery__icon-mashina">
+                      <use href="./img/icons.svg#icon-mashina"></use>
+                    </svg>
+                    Кур’єром
+                    <svg class="delivery__icon-halochka">
+                      <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="delivery__item">
+                  <a href="" class="delivery__link">
+                    <svg class="delivery__icon-delivery">
+                      <use href="./img/icons.svg#icon-delivery"></use>
+                    </svg>
+                    Делівері
+                    <svg class="delivery__icon-halochka">
+                      <use href="./img/icons.svg#icon-halochka-bottom"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -416,5 +488,8 @@
     <!--------------------------javaScript---------------------------->
     <!------------ scroll__up ------------->
     <script src="./js/scroll__up.js" type="module"></script>
+
+    <!------------------------- Скрипт галереї  ----------------------->
+    <script src="./js/fslightbox.js" type="module"></script>
   </body>
 </html>
