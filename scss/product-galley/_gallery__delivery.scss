@@ -3,6 +3,11 @@
   @media screen and (min-width: 480px) {
     width: 440px;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 340px;
+  }
+
   @media screen and (min-width: 1200px) {
     width: 538px;
   }
@@ -10,23 +15,36 @@
 
 // <!-- .............. gallery__delivery  ............ -->
 .gallery__desctop-ct {
-  margin-bottom: 50px;
+  margin-bottom: 26px;
   @media screen and (max-width: 767px) {
     display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
   }
 }
 
 .desctop-ct__title {
   margin-bottom: 12px;
-
-  font-size: 48px;
+  font-size: 40px;
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 48px;
+  }
 }
 
 .desctop-ct__text {
-  margin-bottom: 38px;
   color: $green-font-color;
+  margin-bottom: 14px;
+  font-size: 14px;
 
-  font-size: 16px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 38px;
+    font-size: 16px;
+  }
 }
 
 // ....................... desctop-ct__sum-btn ....................../
@@ -35,15 +53,15 @@
     display: flex;
     align-items: center;
 
-    width: 440px;
+    width: 100%;
   }
-  @media screen and (min-width: 1200px) {
-    width: 538px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: 538px;
+  // }
 }
 
 .sum-btn__text {
-  font-size: 34px;
+  font-size: 28px;
   @media screen and (min-width: 1200px) {
     font-size: 48px;
   }
@@ -93,9 +111,12 @@
   @media screen and (min-width: 480px) {
     width: 440px;
   }
-  @media screen and (min-width: 1200px) {
-    width: 538px;
+  @media screen and (min-width: 768px) {
+    width: 100%;
   }
+  // @media screen and (min-width: 1200px) {
+  //   width: 538px;
+  // }
 }
 
 .delivery__item {
@@ -123,6 +144,12 @@
   @media screen and (min-width: 480px) {
     height: 48px;
     padding: 0 30px;
+  }
+  @media screen and (min-width: 768px) {
+    height: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 48px;
   }
 }
 
